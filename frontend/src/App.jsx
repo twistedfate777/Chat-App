@@ -9,7 +9,7 @@ import ChatPage from "./pages/ChatPage";
 import { Toaster } from "react-hot-toast";
 import { useQuery } from "@tanstack/react-query";
 import { axiosInstance } from "./lib/axios";
-import PageLoader from "./components/pageLoader";
+import PageLoader from "./components/PageLoader";
 import useAuthUser from "./hooks/useAuthUser";
 import Layout from "./components/Layout";
 import { useThemeStore } from "./store/useThemeStore";

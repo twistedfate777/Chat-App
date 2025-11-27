@@ -5,7 +5,7 @@ import { Link } from 'react-router';
 import { axiosInstance } from '../lib/axios';
 import toast from 'react-hot-toast';
 import { signupFn } from '../lib/api';
-import PageLoader from '../components/pageLoader';
+import PageLoader from '../components/PageLoader';
 
 
 const SignUpPage = () => {

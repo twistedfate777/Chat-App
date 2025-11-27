@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import PageLoader from '../components/pageLoader'
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import { axiosInstance } from '../lib/axios'
 import toast from 'react-hot-toast'

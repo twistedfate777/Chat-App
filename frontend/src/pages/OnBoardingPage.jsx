@@ -1,6 +1,6 @@
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import React, { useEffect, useState } from 'react'
-import PageLoader from '../components/pageLoader'
+import PageLoader from '../components/PageLoader'
 import useAuthUser from '../hooks/useAuthUser'
 import { LANGUAGES } from '../constants/constant'
 import { LoaderIcon, MapPinIcon, ShipWheelIcon, ShuffleIcon } from "lucide-react";
