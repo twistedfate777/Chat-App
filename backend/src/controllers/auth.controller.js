@@ -85,7 +85,13 @@ export const login = async(req,res)=>{
   }
 }
 export const logout = async(req,res)=>{
-  res.clearCookie("jwt")
+  res.clearCookie("jwt", {
+            httpOnly: true,
+            // Gunakan kondisi yang sama dengan yang Anda gunakan saat mengatur cookie.
+            // Jika Anda menggunakan sameSite: "none", Anda wajib menggunakan secure: true.
+            secure: process.env.NODE_ENV !== "development",
+            sameSite: "none", 
+        })
   res.status(200).json({message:"logout successfully"})
 }
 
