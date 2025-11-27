@@ -14,9 +14,9 @@ const PORT = process.env.PORT || 5000
 
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://chat-app-l5cz.vercel.app/", 
-  "https://chat-app-l5cz-2koybxj9e-twistedfate777s-projects.vercel.app/",
-  "https://chat-app-l5cz-26ly7cmfc-twistedfate777s-projects.vercel.app/"
+  "https://chat-app-l5cz.vercel.app", 
+  "https://chat-app-l5cz-2koybxj9e-twistedfate777s-projects.vercel.app",
+  "https://chat-app-l5cz-26ly7cmfc-twistedfate777s-projects.vercel.app"
 ];
 
 app.use(cors({
